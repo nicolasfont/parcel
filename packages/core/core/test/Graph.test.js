@@ -30,7 +30,7 @@ describe('Graph', () => {
     let graph = new Graph();
     let edge = {from: 'a', to: 'b'};
     graph.addEdge(edge);
-    assert(graph.edges.has(edge));
+    assert(graph.hasEdge(edge));
   });
 
   it('isOrphanedNode should return true or false if the node is orphaned or not', () => {

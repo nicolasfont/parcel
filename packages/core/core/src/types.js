@@ -18,7 +18,8 @@ export type NodeId = string;
 
 export type Edge = {|
   from: NodeId,
-  to: NodeId
+  to: NodeId,
+  type?: string
 |};
 
 export interface Node {
